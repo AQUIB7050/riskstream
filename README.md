@@ -15,18 +15,6 @@ Phase 1 builds the foundation:
 - Kafka, PostgreSQL, and Redis infrastructure through Docker Compose.
 - Basic rule-based risk scoring with unit tests.
 
-## Why This Project Is Resume-Strong
-
-This project is intentionally not a simple CRUD app. It gives you interview talking points around:
-
-- Microservice boundaries.
-- Kafka event flow.
-- Rule-based fraud detection.
-- Low-latency risk scoring.
-- SQL and analytics roadmap.
-- Redis use cases for velocity checks.
-- Testing and observability.
-
 ## High-Level Event Flow
 
 ```text
