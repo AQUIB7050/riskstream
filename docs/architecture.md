@@ -52,17 +52,3 @@ Kafka gives the project an event-driven backbone:
 - Events can be replayed when rules change.
 - Multiple consumers can read the same event stream later, such as analytics and notifications.
 
-## Why Minimal ML
-
-The project uses a heuristic risk score:
-
-```text
-final score = sum of scores from triggered rules
-```
-
-This is not pretending to be a trained ML model. It is deliberately explainable:
-
-- `HIGH_VALUE_WITHDRAWAL` means the withdrawal amount crossed the configured threshold.
-- `MISSING_DEVICE` means a sensitive event arrived without device information.
-
-This gives you a strong interview answer: start with rules for auditability, then optionally add ML later after enough labeled historical data exists.
